@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+}
+
+.headerlogo>img {
+    width: 115px;
+    height: 28px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    height: 100%;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar li a:hover {
+    color: #1a1b1f;
+}
+
+a {
+    background-color: transparent;
+}
+
+.contact>.btn {
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: 0;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2b2d34;
+}
+
+.belownav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc00e3a4217f7862153ae2_portfolio%202%20-%20wide.svg);
+    height: 39rem;
+    color: white;
+    margin: 2rem 2rem;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.introheading {
+    text-align: center;
+    color: white;
+}
+
+.jumboHeading {
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+.belowjumbo {
+    opacity: 0.6;
+    font-size: 20px;
+    margin-top: 10px;
+    word-spacing: 2px;
+}
+
+.btn2 {
+    padding: 1.3rem 2rem;
+    background-color: white;
+    color: black;
+    border: 0;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.container2 {
+    margin-top: 6.5rem;
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.motto {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.believe {
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.para2 {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.divider {
+    width: 80%;
+    border-top: 1px solid #eee;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.upperlayout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    column-gap: 4.8rem;
+    margin-bottom: 5rem;
+}
+
+.fadeabout {
+    opacity: 0.6;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 2.8rem;
+}
+
+.uppersection {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.upperlayout>img {
+    width: 100%;
+}
+
+.lowerlayout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 4.8rem;
+}
+
+.fadeteam {
+    opacity: 0.6;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.lowersection {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.home-content p {
+    opacity: 0.6;
+    margin-bottom: 2.5rem;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+}
+
+.lowerlayout>img {
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: 0;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    font-size:1rem;
+}
+
+.whole-lowerlayout {
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin: auto 1.8rem;
+}
+
+.container3 {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+}
+
+.blogheading {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.fadeabout2 {
+    opacity: 0.6;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.newsheading a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1a1b1f;
+    transition: opacity 200ms ease;
+}
+.newsheading a:hover{
+    opacity: 0.6;
+}
+
+.news {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.news1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.news2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.news3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.fade {
+    opacity: 0.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.8rem;
+}
+
+.lower {
+    padding: 0 80px;
+    background-color: #f4f4f4;
+    margin: auto 2rem;
+}
+
+.container4 {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerheading {
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.footercontent {
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-content {
+    width: 70%;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+}
+
+.footerbtn {
+    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.introsection {
+    display: flex;
+    background-color: black;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.about-divider {
+    width: 80%;
+    border-top: 1px solid #eee;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.about-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.about-motto {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.about-story {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.about-fade {
+    opacity: 0.6;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.service-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.service {
+    margin: 1rem auto;
+    font-size: 2.5rem;
+    font-weight: 400
+}
+
+.Services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 3rem;
+}
+
+.Services img {
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+
+.gap {
+    margin-bottom: 7rem;
+}
+
+.service-given {
+    font-size: 1.3rem;
+    line-height: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.service-para {
+    letter-spacing: 0.01rem;
+    line-height: 1.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.work-container{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.work-projects{
+    display: grid;
+    margin-bottom: 3.75rem;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+.project-info{
+    margin-bottom: 3.75rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.projectimg{
+    margin-bottom: 2.75rem;
+    display: inline-block;
+    width: 100%;
+    transition: opacity 200ms ease;
+}
+.projectimg:hover{
+    opacity: 0.9;
+}
+.project-info a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0.5rem;
+    transition: opacity 200ms ease;
+}
+.project-info a:hover{
+    opacity: 0.9;
+}
+.title{
+    font-size: 1rem;
+}
+.team-members{
+    display: grid;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.member-pic{
+    width: 100%;
+    height: 26.25rem;
+    margin-bottom: 2.5rem;
+    background-color: #f4f4f4;
+}
+.member-info{
+    display: flex;
+    width: 100%;
+    margin-bottom: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+.member-name{
+    font-size: 1.25rem;
+}
+.member-title{
+    font-size: 1rem;
+}
+.blog{
+    margin-bottom: 5rem;
+}
+.blog-summary{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+.blog-headline{
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin-bottom: 0.625rem;
+}
+.blog-headline a{
+    text-decoration: none;
+    color: #1a1b1f;
+}
+.blog-date{
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+.contact-form-grid{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    align-items: start;
+    column-gap: 5rem;
+    row-gap: 1.875rem;
+}
+.contact-form-wrap{
+    padding: 45px 50px 50px;
+    border: 0.063rem solid #eee;
+}
+.contact-heading{
+    margin-bottom: 2.5rem;
+}
+.contact-us-heading{
+    margin-bottom: 0.938rem;
+    font-size: 2.25rem;
+}
+.contact-fade{
+    opacity: 0.6;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+.contact-form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+}
+.get-in-touch-form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+}
+.text-field{
+    box-sizing: border-box;
+    height: 2.375rem;
+    width: 100%;
+    margin-bottom: 1.563rem;
+    padding: 1.313rem 1.25rem;
+    border: 0.063rem solid #e4e4e4;
+    transition: border-color 400ms ease;
+    vertical-align: middle;
+    color: #333333;
+    font-weight: 400;
+    opacity: 0.6;
+    font-size: 1rem;
+}
+.textarea{
+    padding-top: 0.75rem;
+    height: 12.5rem;
+}
+.label{
+    margin-bottom: 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+}
+.contact-info-para{
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    text-size-adjust: 100%;
+}
+.details{
+    margin-bottom: 1.875rem;
+}
+.details a{
+    text-decoration: none;
+    color: #1a1b1f;
+}
